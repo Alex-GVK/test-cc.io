@@ -106,13 +106,13 @@ body {
 	background-image: url(img/t-shirt.png);
 	background-repeat: no-repeat;
 	background-position: center;
-	width: 50%;
+	max-width: 50%;
 	height: 325px;
 	cursor: pointer;
 }
 
 .content-title {
-	width: 50%;
+	max-width: 50%;
 }
 
 .content-title h1 {
@@ -138,4 +138,19 @@ body {
 	background: inherit;
 	border: 2px solid #fff;
 	border-radius: 12px;
+	cursor: pointer;
+	outline: none;
+}
+.content-button button:hover{
+	background-color: rgba(0, 0, 0, 0.4);
+} 
+.slider-block div {
+	width: 1024px;
+}
+.slider-block{
+	margin: auto;
+} 
+.slick-initialized .slick-slide {
+    display: flex;
+	outline: none;
 }
